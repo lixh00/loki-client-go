@@ -13,16 +13,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki-client-go/pkg/backoff"
-	"github.com/grafana/loki-client-go/pkg/httputil"
-	"github.com/grafana/loki-client-go/pkg/labelutil"
-	"github.com/grafana/loki-client-go/pkg/urlutil"
+	"github.com/AllCute/loki-client-go/pkg/backoff"
+	"github.com/AllCute/loki-client-go/pkg/httputil"
+	"github.com/AllCute/loki-client-go/pkg/labelutil"
+	"github.com/AllCute/loki-client-go/pkg/urlutil"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"github.com/prometheus/common/config"
 	"github.com/prometheus/common/model"
 
-	"github.com/grafana/loki-client-go/pkg/logproto"
+	"github.com/AllCute/loki-client-go/pkg/logproto"
 )
 
 var logEntries = []entry{

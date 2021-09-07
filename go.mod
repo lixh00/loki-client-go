@@ -1,4 +1,4 @@
-module github.com/grafana/loki-client-go
+module github.com/AllCute/loki-client-go
 
 go 1.15
 

@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/grafana/loki-client-go/pkg/backoff"
+	"github.com/AllCute/loki-client-go/pkg/backoff"
 	"github.com/prometheus/prometheus/promql/parser"
 
-	"github.com/grafana/loki-client-go/pkg/metric"
+	"github.com/AllCute/loki-client-go/pkg/metric"
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"
@@ -26,8 +26,8 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/common/version"
 
-	"github.com/grafana/loki-client-go/pkg/helpers"
-	"github.com/grafana/loki-client-go/pkg/logproto"
+	"github.com/AllCute/loki-client-go/pkg/helpers"
+	"github.com/AllCute/loki-client-go/pkg/logproto"
 )
 
 const (
