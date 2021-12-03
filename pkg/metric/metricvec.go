@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/AllCute/loki-client-go/pkg/labelutil"
+	"github.com/lixh00/loki-client-go/pkg/labelutil"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
 )

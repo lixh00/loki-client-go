@@ -1,4 +1,4 @@
-module github.com/AllCute/loki-client-go
+module github.com/lixh00/loki-client-go
 
 go 1.15
 
